@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+/*Ò³Ãæ³õÊ¼»¯*/
+.top{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+
+}
+.top1{
+    width: 1200px;
+    margin: 0 auto;
+}
+.top .top_left{
+    float: left;
+    margin-top: 10px;
+}
+.top .top_left li{
+    float: left;
+    margin-left: 20px;
+}
+.top .top_right{
+    float: right;
+    margin-top: 10px;
+}
+.top .top_right li{
+    float: left;
+    color: darkgray;
+    border-left: 1px solid gray;
+    padding:0 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.top .top_right li:hover{
+    color: white;
+}
+/*header*/
+.header{
+    width: 100%;
+    height: 83px;
+}
+.head{
+    width: 1200px;
+    height: 83px;
+    margin: 0 auto;
+}
+.head .bot{
+    width: 568px;
+    margin-top: 30px;
+}
+.head .bot li{
+    float: left;
+    margin-left: 30px;
+    color: gray;
+    font-size: 18px;
+}
+.head .bot li:hover{
+    color: red;
+    cursor: pointer;
+}
+.head>a{
+    float: left;
+}
+.head>ul{
+    float: left;
+}
+.head .bot1{
+    border: 1px solid gainsboro;
+    width: 172px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.head .bot1 li{
+    float: left;
+    margin-left: 90px;
+    padding-top: 10px;
+    height: 30px;
+    cursor: pointer;
+    color: grey;
+}
+.head .bot2{
+    width: 117px;
+    height: 42px;
+    border: 1px solid gainsboro;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.head .bot2 li{
+    float: left;
+    color: grey;
+    margin-left: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}

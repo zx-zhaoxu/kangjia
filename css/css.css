@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.clear{
+    clear:both;
+}
+header{
+    width: 7.2rem;
+    margin: 0 auto;
+    margin-bottom: 0.1rem;
+}
+.left{
+    float: left;
+}
+.left img{
+    width: 1.67rem;
+    height: 0.42rem;
+    margin-left: 0.2rem;
+}
+.right{
+    float: right;
+}
+.right img{
+    width: 0.28rem;
+    height: 0.28rem;
+    margin-right: 0.3rem;
+}
+.swiper1{
+    width: 7.2rem;
+    height: 5.2rem;
+}
+ .swiper-container img{
+    width: 100%;
+}
+/*ÂÖ²¥Í¼*/
+
+/*nav*/
+nav{
+    background: white;
+}
+nav ul:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+nav li{
+    float: left;
+    padding:0.35rem 0.66rem;
+    border-bottom: 0.05rem solid gainsboro;
+    border-right: 0.05rem solid gainsboro;
+}
+nav li a{
+    display: block;
+    width: 100%;
+    font-size: 0.14rem;
+    color: black;
+    text-align: center;
+}
+nav li img{
+    width: 1rem;
+    height: 1rem;
+    margin-bottom: 0.3rem;
+}
+.nav_bottom{
+    margin-bottom: 0.2rem;
+}
+.nav_bottom .nav_left{
+    float: left;
+}
+.nav_left img{
+    width: 0.35rem;
+    height: 0.33rem;
+    margin-left: 0.3rem;
+    margin-top: 0.1rem;
+}
+.nav_left span{
+    font-size: 0.4rem;
+    margin-left: 0.2rem;
+}
+.nav_right{
+    float: right;
+}
+.nav_right a{
+    color: dodgerblue;
+    font-size: 0.35rem;
+    margin-right: 0.3rem;
+    font-weight: bold;
+}
+/*main*/
+.main{
+    background-color: #f2f2f2;
+    padding-bottom: 0.3rem;
+}
+.tupian{
+    width: 6.9rem;
+    height: 3.8rem;
+}
+.tupian img{
+    width: 6.6rem;
+    height: 3.5rem;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+}
+.main_bottom{
+    background-color: white;
+    width: 6.6rem;
+    margin-left: 0.3rem;
+}
+.main_bottom .main_left{
+    float: left;
+    margin-bottom: 0.5rem;
+}
+.main_bottom .main_left>a{
+    font-size: 0.15rem;
+    color: black;
+    font-weight: bold;
+    margin-left: 0.3rem;
+}
+.main_bottom .main_right{
+    float: right;
+    border-left: 0.02rem solid #f2f2f2;
+}
+.main_bottom .main_right>a{
+    font-size: 0.4rem;
+    margin-right: 0.5rem;
+    font-weight: bold;
+    margin-left: 0.3rem;
+}
+.main1 .main1_left{
+    float: left;
+    width: 20%;
+    margin-top: 0.3rem;
+    border-right: 0.01rem solid #f2f2f2;
+}
+.left_a img{
+    width: 0.58rem;
+    height: 0.53rem;
+    margin:0 0.5rem;
+}
+.left_a p{
+    font-size:0.14rem;
+    margin-left: 0.1rem;
+    text-align: center;
+}
+.main1_right{
+    float: left;
+    width: 79%;
+    padding-top: 0.4rem;
+    overflow: hidden;
+}
+.main1_right ul:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.main1_right .bo{
+    position: relative;
+}
+.main1_right .bo .mu{
+    position: absolute;
+    bottom: 0.3rem;
+    left: 50%;
+    width: 1.5rem;
+    margin-left: -0.75rem;
+}
+.main1_right .bo .mu li{
+    float: left;
+    width:0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin-right: 0.2rem;
+}
+.dian{
+    background: blue !important;
+    border: 1px solid blue !important;
+}
+.main1_right .nu{
+    width: 300%;
+    transition: all 0.5s linear;
+}
+.main1_right .nu li{
+    float: left;
+    width: 33%;
+    height: 1.5rem;
+    position: relative;
+}
+.main1_right li img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 2rem;
+}
+.main1_right li p{
+    float: right;
+    width: 3rem;
+    font-size: 0.14rem;
+    padding-top: 0.2rem;
+}
+
+
+
+
+.main1>p{
+    font-size: 0.25rem;
+    margin-left: 3rem;
+    padding: 0.5rem 0;
+}
+
+
+
+
+
+
+.footer{
+    background-color: gainsboro;
+    padding: 0.2rem 0;
+}
+ul{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+.box{
+    width: 6rem;
+    margin-left: 0.5rem;
+}
+.box li{
+    float: left;
+    cursor: pointer;
+    padding: 0.15rem 0.43rem;
+    color: black;
+    background-color: white;
+    border: 0.02rem solid #31b0d5;
+}
+.box li p{
+    font-size: 0.2rem;
+}
+.main3{
+    width: 6rem;
+}
+.main3 img{
+    width: 6rem;
+    height: 2.64rem;
+    margin-left: 0.5rem;
+    padding-top: 0.2rem;
+}
+.main3 div{
+    font-size: 1rem;
+    color: red;
+}
+.lei{
+    background-color: #31b0d5!important;
+    color: white!important;
+}
+.foot{
+    height: 1rem;
+    line-height: 0.5rem;
+    
+}
+.foot p a{
+    font-size: 0.2rem;
+    margin: 0 auto;
+    margin-left: 3rem;
+    color: #31b0d5;
+}
+
+
+
+
+

@@ -1,0 +1,428 @@
+.swiper-container{
+    width: 100%;
+    height: 460px;
+    overflow: hidden;
+    position: relative;
+}
+.swiper-container div>img{
+    width: 100%;
+    height: 460px;
+}
+.nav{
+    position: absolute;
+    width: 240px;
+    height: 100%;
+    box-sizing: border-box;
+    background: rgba(41,102, 126, 0.7);
+    padding: 12px 0;
+    left: 50%;
+    top: 0;
+    margin-left: -600px;
+    z-index: 999;
+}
+.nav>ul>li{
+    height: 62px;
+    line-height: 62px;
+    cursor: pointer;
+    position: relative;
+}
+.nav>ul>li img{
+    margin-left: 20px;
+}
+.nav>ul>li p{
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+}
+.nav>ul>li span{
+    float: right;
+    margin-right: 20px;
+    color: white;
+}
+.nav>ul>li:hover{
+    background: red;
+}
+.nav>ul>li:hover h2{
+    color: coral;
+}
+.nav>ul>li h2{
+    margin-left: 68px;
+    margin-right: 25px;
+    font-size: 15px;
+    color: #333;
+    font-weight: 300;
+}
+.nav>ul>li .nav_x{
+    position: absolute;
+    left: 240px;
+    width: 240px;
+    min-height: 600px;
+    height: auto;
+    top: -12px;
+    border: none;
+    background: white;
+    z-index: 999;
+    display: none;
+}
+.nav>ul>li .nav_x a{
+    width: 200px;
+    height: 89px;
+    display: block;
+    color: #999;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    line-height: 89px;
+}
+.nav>ul>li .nav_x a img{
+    width: 40px;
+    float: left;
+    margin: 20px;
+}
+.nav>ul>li .nav_x a span{
+    float: left;
+    font-size: 12px;
+    color: #666666;
+}
+.nav>ul>li .nav_x a:hover span{
+    color: coral;
+}
+.zong{
+    background: #f5f5f5;
+}
+.main{
+    width: 100%;
+}
+.main .man{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.main .man li{
+    float: left;
+    margin-left: 15px;
+}
+.main1{
+    width: 100%;
+    margin-top: 30px;
+}
+.main1 .man1{
+    width: 1200px;
+    margin: 0 auto;
+}
+.main1 .man1 .man1_top{
+    width: 1200px;
+    height: 60px;
+}
+.main1 .man1 .man1_top .man1_top_left{
+    float: left;
+    margin-left: 20px;
+}
+.main1 .man1 .man1_top .man1_top_left span{
+    font-size: 30px;
+}
+.main1 .man1 .man1_top .man1_top_right{
+    float: right;
+    margin-right: 20px;
+}
+.main1 .man1 .man1_top .man1_top_right .sp1{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid black;
+    background: white;
+    display: inline-block;
+    margin-left: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.main1 .man1 .man1_top .man1_top_right .sp2{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid black;
+    background: white;
+    display: inline-block;
+    margin-left: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.main1 .man1_bottom{
+    width: 1200px;
+    height: 310px;
+    overflow: hidden;
+    position: relative;
+}
+.main1 .man1_bottom ul{
+    width: 100000px;
+    height: 310px;
+    position: absolute;
+    cursor: pointer;
+}
+.main1 .man1_bottom ul li{
+    width: 230px;
+    height: 281px;
+    float: left;
+    background: white;
+    margin-left: 10px;
+    border-top: 1px solid blue;
+}
+.main1 .man1_bottom ul li img{
+    width: 230px;
+    height: 200px;
+}
+.main1 .man1_bottom ul li h2{
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}
+.main1 .man1_bottom ul li p{
+    color: darkgray;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+}
+.main1 .man1_bottom ul li span{
+    width: 230px;
+    color: red;
+    text-align: center;
+    display: inline-block;
+}
+.main2{
+    width: 1200px;
+    margin: 0 auto;
+}
+.main2 .man2 p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.main2 .man2_bottom{
+    width: 1200px;
+    height: 620px;
+}
+.main2 .man2_bottom img{
+    float: left;
+    margin-left:8px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.main2 .man2_bottom .xiao{
+    margin-bottom: 10px;
+}
+.main2 .man2_bottom img:hover{
+    transform: translateY(-5px);
+    box-shadow:0 5px 2px 5px gainsboro;
+}
+.main3{
+    margin-top: 20px;
+}
+.main3 .man3{
+    width: 1200px;
+    height: 310px;
+    position: relative;
+    margin: 0 auto;
+}
+.main3 .man3 ul{
+    width: 100000px;
+    height: 310px;
+    position: absolute;
+    cursor: pointer;
+}
+.main3 .man3 ul li{
+    width: 230px;
+    height: 310px;
+    float: left;
+    background: white;
+    margin-left: 10px;
+    transition: all 0.3s linear;
+}
+.main3 .man3 ul li img{
+    width: 230px;
+    height: 230px;
+}
+.main3 .man3 ul li h2{
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}
+.main3 .man3 ul li p{
+    color: darkgray;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+}
+.main3 .man3 ul li span{
+    width: 230px;
+    color: red;
+    text-align: center;
+    display: inline-block;
+}
+.main3 .man3 ul li:hover{
+    transform: translateY(-5px);
+    box-shadow:0 5px 2px 5px gainsboro;
+}
+.main4{
+    width: 100%;
+}
+.man4{
+    width: 1200px;
+    margin: 0 auto;
+}
+.main4 .man4 p{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.main1 .man4_bottom ul{
+    height: 340px;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.main4 .man4_bottom ul li{
+    width: 290px;
+    height: 340px;
+    float: left;
+    background: white;
+    margin-left: 10px;
+    transition: all 0.3s linear;
+}
+.main4 .man4_bottom ul li img{
+    width: 290px;
+    height: 240px;
+}
+.main4 .man4_bottom ul li h2{
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}
+.main4 .man4_bottom ul li p{
+    color: darkgray;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+}
+.main4 .man4_bottom ul li span{
+    width: 290px;
+    color: red;
+    text-align: center;
+    display: inline-block;
+}
+.main4 .man4 ul li:hover{
+    transform: translateY(-5px);
+    box-shadow:0 5px 2px 5px gainsboro;
+}
+
+.man5{
+    width: 1200px;
+    margin: 0 auto;
+}
+.main5 .man5 p{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.main1 .man5_bottom ul{
+    height: 340px;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s linear;
+}
+.main5 .man5_bottom ul li{
+    width: 290px;
+    height: 340px;
+    float: left;
+    background: white;
+    margin-left: 10px;
+    transition: all 0.3s linear;
+}
+.main5 .man5_bottom ul li img{
+    width: 290px;
+    height: 340px;
+}
+.main5 .man5 ul li:hover{
+    transform: translateY(-5px);
+    box-shadow:0 5px 2px 5px gainsboro;
+}
+.main6{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.man6{
+    width: 1200px;
+    height: 365px;
+    margin: 0 auto;
+}
+.main6 .man6 .man6_top p{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.main6 .man6 .man6_bottom{
+    height: 305px;
+}
+.main6 .man6 .man6_bottom .man6_left{
+    width: 700px;
+    height: 305px;
+    float: left;
+    margin-right: 20px;
+}
+.main6 .man6 .man6_bottom .man6_left p{
+    width: 683.75px;
+    height: 40px;
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.main6 .man6 .man6_bottom .man6_left p:hover{
+    color: red;
+}
+.main6 .man6 .man6_bottom .man6_left p span{
+    float: right;
+}
+.main6 .man6 .man6_bottom .man6_left>span{
+    padding: 5px 10px;
+    color: white;
+    background: red;
+    border-radius: 3px;
+    margin: 20px 0;
+    display: inline-block;
+}
+.main6 .man6 .man6_bottom .man6_left ul{
+    width: 700px;
+    height: 181px;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+.main6 .man6 .man6_bottom .man6_left ul li{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.main6 .man6 .man6_bottom .man6_left ul li>a{
+    color: gray;
+    display: inline-block;
+}
+.main6 .man6 .man6_bottom .man6_left ul li>a:hover{
+    color: red;
+}
+.main6 .man6 .man6_bottom .man6_left ul li span{
+    float: right;
+    color: gray;
+    cursor: pointer;
+}
+.main6 .man6 .man6_bottom .man6_left ul li span:hover{
+    color: red;
+}
+.man6_right .swiper-container{
+    width: 460px;
+    height: 305px;
+    overflow: hidden;
+    position: relative;
+}
+.man6_right .swiper-container div>img{
+    width: 460px;
+    height: 305px;
+}

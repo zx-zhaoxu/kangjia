@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+.zong  {
+    background: ghostwhite;
+    padding-bottom: 50px;
+}
+.main{
+    width: 100%;
+    padding-top: 30px;
+}
+.man{
+    width: 1200px;
+    height: 571px;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+    background: white;
+}
+.man .man_left{
+    float: left;
+    width: 525px;
+    height: 571px;
+}
+.man .man_left .man_left_top img{
+    width: 450px;
+    height: 450px;
+    margin-left: 50px;
+}
+.man .man_left .man_left_bottom{
+    width: 429px;
+    height: 69px;
+}
+.man .man_left .man_left_bottom ul li{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+}
+.man .man_left .man_left_bottom ul li img{
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+    border: 1px solid gainsboro;
+}
+.man .man_right{
+    float: left;
+    width: 455px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.man_right_top{
+    width: 455px;
+    height: 89px;
+}
+.man_right_top h2{
+    font-size: 40px;
+}
+.man_right_top p{
+    font-size: 20px;
+}
+.man_right>p{
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    height: 79px;
+    line-height: 79px;
+    font-size: 20px;
+}
+.man_right>p span{
+    font-size: 25px;
+    color: red;
+}
+.man_right_bottom table{
+    font-size: 12px;
+    color: darkgray;
+}
+.man_right_bottom table tr{
+    line-height: 30px;
+}
+.man_right_bottom table td{
+    padding-right: 30px;
+}
+.zuo{
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    margin: 20px;
+    display: inline-block;
+}
+.you{
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+    border-radius: 5px;
+    margin: 20px;
+    display: inline-block;
+}
+.der{
+    font-size: 20px;
+    margin: 20px;
+}
+.der .kuan1{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.der .kuan2{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.der .kuan3{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.main1{
+    width: 1200px;
+    margin: 20px auto;
+    border: 1px solid gainsboro;
+    background: white;
+    padding-bottom: 20px;
+}
+.box{
+    padding: 2px;
+    border-bottom: 1px solid gainsboro;
+}
+.box li{
+    width: 307px;
+    float: left;
+    cursor: pointer;
+    padding: 15px 45px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border-right: 2px solid gainsboro;
+}
+.box li p{
+    font-size: 20px;
+}
+.main3 .im{
+    margin: 0 auto;
+    width: 790px;
+}
+.main3 img{
+    width: 790px;
+}
+.main3 .sp{
+    width: 1200px;
+    border-bottom: 1px solid gainsboro;
+}
+.main3 .sp span{
+    padding: 5px 10px;
+    background: red;
+    color: white;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.main3 div>p{
+    font-size: 20px;
+    margin: 30px;
+}
+.main3 div>p>span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.lei{
+    color: red!important;
+}
+.xinxi{
+    width: 1106px;
+    margin: 0 auto;
+    background: ghostwhite;
+    border: 1px solid gainsboro;
+}
+.xinxi p{
+    color: red;
+    font-size: 14px;
+}
+.xinxi p span{
+    font-size: 12px;
+    color: black;
+}
+.top1{
+    border-bottom: 1px solid gainsboro;
+    margin-left: 10px;
+    width: 1200px;
+}
+.top1 p{
+    font-size: 20px;
+    float: left;
+}
+.top1 p span{
+    color: red;
+}
+.top1>span{
+    margin: 25px 50px;
+    background: red;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 5px;
+    float: right;
+    color: white;
+}
+.top2{
+    margin-left: 20px;
+}
+.top2 ul li{
+    float: left;
+    margin: 30px 100px 0 20px;
+    font-size: 20px;
+}

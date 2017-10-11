@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.clear{
+    clear:both;
+}
+header{
+    width: 7.2rem;
+    margin: 0 auto;
+    margin-bottom: 0.1rem;
+}
+.left{
+    float: left;
+}
+.left img{
+    width: 1.67rem;
+    height: 0.42rem;
+    margin-left: 0.2rem;
+}
+.right{
+    float: right;
+}
+.right img{
+    width: 0.28rem;
+    height: 0.28rem;
+    margin-right: 0.3rem;
+}
+.bannder{
+    width: 100%;
+    overflow: hidden;
+}
+.bannder p{
+    margin-left: 0.2rem;
+    height: 0.8rem;
+    font-size: 0;
+}
+.bannder p a{
+    font-size: 0.25rem;
+    color: black;
+}
+.swiper-container{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+.swiper-container img{
+    width:90%;
+    display: block;
+    margin: 0 auto;
+}
+.dian span{
+    background-color: gray!important;
+}
+.bann{
+    font-size: 0;
+    border-bottom: 0.05rem solid gainsboro;
+}
+.bann h2{
+    font-size: 0.5rem;
+}
+.bann p{
+    font-size: 0.35rem;
+}
+.bann span{
+    color: red;
+    font-size: 0.3rem;
+}
+.bann h3{
+    font-size: 0.4rem;
+    color: red;
+    margin-bottom: 0.3rem;
+}
+.bann h3 span{
+    float: right;
+    color: black;
+    margin:0.1rem 0.2rem;
+ }
+.der{
+    font-size: 0.4rem;
+    margin: 0.2rem;
+}
+.der .kuan1{
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-right: 0.1rem;
+}
+.der .kuan2{
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-right: 0.1rem;
+}
+.der .kuan3{
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-right: 0.1rem;
+}
+.main{
+    width: 6.5rem;
+    padding: 0.2rem 0;
+    margin-left: 0.2rem;
+    border: 0.02rem solid gainsboro;
+}
+ul{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+.box{
+    padding: 0.02rem 0.2rem;
+    border-bottom: 0.02rem solid gainsboro;
+}
+.box li{
+    float: left;
+    cursor: pointer;
+    padding: 0.15rem 0.45rem;
+    color: black;
+    background-color: white;
+    border-right: 0.02rem solid gainsboro;
+}
+.box li p{
+    font-size: 0.2rem;
+}
+.main3{
+    width: 6rem;
+}
+.main3 img{
+    width: 6rem;
+    margin-left: 0.3rem;
+    padding-top: 0.2rem;
+}
+.main3 div{
+    font-size: 1rem;
+    color: red;
+}
+.main3 p{
+    font-size: 0.25rem;
+    color: gray;
+    padding: 0.2rem;
+}
+.lei{
+    color: red!important;
+}
+.top{
+    width: 5.5rem;
+    height: 1.5rem;
+    border: 0.01rem solid gray;
+    background-color: gainsboro;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem;
+}
+.top p{
+    float: left;
+    color: black;
+    font-size: 0.25rem;
+    margin: 0.2rem;
+}
+.top input{
+    background-color: red;
+    color: white;
+}
+.top span{
+    font-size: 0.25rem;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+    height: 1rem;
+    line-height: 0.5rem;
+
+}
+.foot p a{
+    font-size: 0.2rem;
+    margin: 0 auto;
+    margin-left: 3rem;
+    color: #31b0d5;
+}
